@@ -33,17 +33,9 @@ Step 1: Create a Custom Model with Ollama
 A. Make a Project Folder
 Open File Explorer, navigate to your Documents or Desktop.
 Right-click > New > Folder > Name it my-ollama-model.
-B. Create the Modelfile
+B. Add the modelfile
 Open the folder my-ollama-model.
-Right-click > New > Text Document.
-Rename it to Modelfile (no extension).
-Open with Notepad and paste:
-FROM llama3.2
-
-SYSTEM "You are a helpful, friendly assistant. Always answer clearly and concisely."
-PARAMETER temperature=0.5
-PARAMETER max_tokens=400
-Save and close.
+and add the modelfile file in it 
 
 3. Step 2: Build and Register Your Model
 A. Open Command Prompt

@@ -1,0 +1,6 @@
+FROM llama3.2
+
+SYSTEM "You are a helpful, friendly assistant. Always answer clearly and concisely."
+
+PARAMETER temperature 0.5
+PARAMETER num_predict 400
